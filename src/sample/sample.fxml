@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="74.0" prefHeight="328.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="authSingInButton" layoutX="425.0" layoutY="252.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="232.0" text="Log in">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="closeButton" onAction="#handleCloseButtonAction" layoutX="41.0" layoutY="252.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="232.0" text="Log off">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="password_field" promptText="password" layoutX="276.0" layoutY="164.0" />
+            <TextField fx:id="login_field" promptText="login" layoutX="276.0" layoutY="124.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="285.0" layoutY="21.0" text="Log in" textFill="#a54f57">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label alignment="TOP_CENTER" layoutX="265.0" layoutY="14.0" text="Lab. 3-4" textFill="#f5f5f5">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
